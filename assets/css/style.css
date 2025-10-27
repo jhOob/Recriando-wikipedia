@@ -1,0 +1,92 @@
+ body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #eaeaea;
+    }
+
+    .logo {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 2px solid #444;
+    }
+
+    .logo img {
+      width: 250px;
+    }
+
+    .header {
+      background-image: url('assets/images/game-of-thrones.png');
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 3px 3px 8px #000;
+    }
+
+    .bar {
+      background-color: #1c1c1c;
+      padding: 15px;
+      text-align: center;
+      border-top: solid 1px #333;
+      border-bottom: solid 1px #333;
+    }
+
+    .bar a {
+      color: #c9a14a;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .bar a:hover {
+      color: #fff;
+    }
+
+    .content {
+      max-width: 1440px;
+      margin: auto;
+      display: grid;
+      gap: 2rem;
+      grid-template-areas: "sidebar main anchors";
+      grid-template-columns: 15rem 1fr 15rem;
+      padding: 1rem;
+    }
+
+    .sidebar, .anchors {
+      background-color: #181818;
+      padding: 15px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+
+    .main {
+      background-color: #121212;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .sidebar a, .anchors a {
+      color: #c9a14a;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover, .anchors a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      border-top: 2px solid #444;
+      color: #aaa;
+    }
